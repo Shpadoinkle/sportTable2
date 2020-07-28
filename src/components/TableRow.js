@@ -8,6 +8,9 @@ const Wrapper = styled.div`
   display: grid;
   grid-template-columns: 3fr 2fr 15px 2fr;
   border-top: ${({theme}) => `1px solid ${theme.textGrey} `};
+  :last-of-type {
+    padding-bottom: 4px;
+  }
 `
 
 const Cell = styled.div`
